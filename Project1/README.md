@@ -47,10 +47,10 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the **Jump Box** machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- **174.65.148.43
+- **174.65.148.43**
 
 Machines within the network can only be accessed by **Jump Box**.
-- **Remote Machine (174.65.148.43) are allow to access the ELK VM's kibana interface (TCP 5601)
+- **Remote Machine (174.65.148.43) are allow to access the ELK VM's kibana interface (TCP 5601)**
 
 A summary of the access policies in place can be found in the table below.
 
@@ -67,9 +67,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - **It ensures the provisioning scripts run identically everywhere they use them. All the configurations will dop exactly the same thing everytime we run them, by eliminating as mucb variablity between configurations as possibe.**
 
 The playbook implements the following tasks:
-- **increase virtual memory
-- **install docker.io engine, python-pip, docker module
-- **download and launch a docker elk container (sepb/elk) with open ports 5601, 9200, 5044
+- **increase virtual memory**
+- **install docker.io engine, python-pip, docker module**
+- **download and launch a docker elk container (sepb/elk) with open ports 5601, 9200, 5044**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -77,16 +77,16 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- **DVWA-VM1 (10.0.0.5)
-- **DVWA-VM2 (10.0.0.6)
+- **DVWA-VM1 (10.0.0.5)**
+- **DVWA-VM2 (10.0.0.6)**
 
 We have installed the following Beats on these machines:
-- **FileBeat
-- **MetricBeat
+- **FileBeat**
+- **MetricBeat**
 
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-- **Filebeat collects system log events, which we use to track user login events (e.g. SSH login attempts)
+- **Filebeat collects system log events, which we use to track user login events (e.g. SSH login attempts)**
 - **Metricbeat collect metrics from the operating system and from services running on the server, which we used to track**
 
 

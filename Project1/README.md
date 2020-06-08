@@ -103,7 +103,6 @@ SSH into the control node and follow the steps below:
   - **[webservers]** group to install beats on DVWA Servers
 - navigate to url: **http://<elkserver's ip>:5601** in order to check that the ELK server is running
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 ### Commands
 - install ELK stack on ELK VM: **> ansible-playbook elk-playbook.yml**
 - install filebeat on webservers: **> ansible-playbook filebeat-playbook.yml**

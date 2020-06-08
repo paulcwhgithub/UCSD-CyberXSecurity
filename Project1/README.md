@@ -39,8 +39,8 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name       | Function  | IP Address | Operating System       |
 |------------|-------------------|------------|------------------------|
 | Jump Box   | Gateway           | 10.0.0.4   | Ubuntu Linux 18.04 LTS |
-| DVWA-VM1   | Web App           | 10.0.0.5   | Ubuntu Linux 18.04 LTS |
-| DVWA-VM2   | Web App           | 10.0.0.6   | Ubuntu Linux 18.04 LTS |
+| DVWA-VM1   | Web Application   | 10.0.0.5   | Ubuntu Linux 18.04 LTS |
+| DVWA-VM2   | Web Application   | 10.0.0.6   | Ubuntu Linux 18.04 LTS |
 | ELK Server | System Monitoring | 10.0.0.7   | Ubuntu Linux 18.04 LTS |
 
 ### Access Policies

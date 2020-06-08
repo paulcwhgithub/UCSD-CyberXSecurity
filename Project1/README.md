@@ -25,18 +25,18 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly [available], in addition to restricting [access] to the network.
+Load balancing ensures that the application will be highly **available**, in addition to restricting **access** to the network.
 - Load Balancing plays an important security role as computing moves evermore to the cloud. The off-loading function of a load balancer defends an organization against distributed denial-of-service (DDoS) attacks. It does this by shifting attack traffic from the corporate server to a public cloud provider.
 - The advanatage of jump box are it controls access to the other machines by allowing connections from specific ip addresses and forwarding those machines. Thereforre, it reduces the attack surface and segregates the other machines from exposing to the public network and 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the [file system] and system [metrics].
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **file system** and system **metrics**.
 - Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 - Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name       | Function  | IP Address | Operating System       |
+| Name       | Function          | IP Address | Operating System       |
 |------------|-------------------|------------|------------------------|
 | Jump Box   | Gateway           | 10.0.0.4   | Ubuntu Linux 18.04 LTS |
 | DVWA-VM1   | Web Application   | 10.0.0.5   | Ubuntu Linux 18.04 LTS |
@@ -47,10 +47,10 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the **Jump Box** machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- **174.65.148.43**
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by **Jump Box**.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
 
 A summary of the access policies in place can be found in the table below.

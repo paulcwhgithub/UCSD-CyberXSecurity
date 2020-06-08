@@ -115,8 +115,8 @@ SSH into the control node and follow the steps below:
   
 ### Screenshots
 
-![](images/elk-screenshot.png)
+![Kibana](images/kibana-screenshot.png)
 
-![](images/filebeat-screenshot.png)
+![FileBeat](images/filebeat-screenshot.png)
 
-![](images/metricbeat-screenshot.png)
+![MetricBeat](images/metricbeat-screenshot.png)

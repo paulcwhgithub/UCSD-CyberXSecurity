@@ -100,8 +100,8 @@ SSH into the control node and follow the steps below:
 
 - **elk-playbook.yml, filebeat-playbook.yml, metricbeat-playbook.yml** are the playbooks and they are located in /etc/ansible
 - update **hosts (/etc/ansible/hosts)** file on Ansible container for:
-  - **[elkservers]** group to install docker module and containers
+  - **[elkservers]** group to install docker module and launch containers on ELK Server VM
   - **[webservers]** group to install beats on DVWA Servers
-- **navigate to url: http://<elkserver's ip>:5601 in order to check that the ELK server is running
+- navigate to url: **http://<elkserver's ip>:5601** in order to check that the ELK server is running
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

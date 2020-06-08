@@ -27,7 +27,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly **available**, in addition to restricting **access** to the network.
 - **Load Balancing plays an important security role as computing moves evermore to the cloud. The off-loading function of a load balancer defends an organization against distributed denial-of-service (DDoS) attacks. It does this by shifting attack traffic from the corporate server to a public cloud provider.**
-- **The advanatage of jump box are it controls access to the other machines by allowing connections from specific ip addresses and forwarding those machines. Therefore, it reduces the attack surface and segregates the other machines from exposing to the public network.**
+- **The advanatage of jump box are it controls access to the other machines by focusing on the interactions between the routers instead of all of the machines, we only have to worry about a few connections between a few machines, rather than connections between all machines. Therefore, it reduces the attack surface and segregates the other machines from exposing to the public network.**
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **file system** and system **metrics**.
 - **Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.**
@@ -50,30 +50,30 @@ Only the **Jump Box** machine can accept connections from the Internet. Access t
 - **174.65.148.43**
 
 Machines within the network can only be accessed by **Jump Box**.
-- **Remote Machine (174.65.148.43) are allow to access the ELK VM's kibana interface (TCP5601)**
+- **Remote Machine (174.65.148.43) are allow to access the ELK VM's kibana interface (TCP 5601)**
 
 A summary of the access policies in place can be found in the table below.
 
-| Name       | Publicly Accessible | Allowed IP Addresses |
-|------------|---------------------|----------------------|
-| Jump Box   | Yes                 | 174.65.148.43        |
-| DVWA-VM1   | No                  |                      |
-| DVWA-VM2   | No                  |                      |
-| ELK Server | Yes                 | 174.65.148.43        |
+| Name       | Publicly Accessible | Allowed IP Addresses    |
+|------------|---------------------|-------------------------|
+| Jump Box   | Yes                 | 174.65.148.43 (SSH)     |
+| DVWA-VM1   | No                  |                         |
+| DVWA-VM2   | No                  |                         |
+| ELK Server | Yes                 | 174.65.148.43 (TCP 5601)|
 
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- **It ensures the provisioning scripts run identically everywhere they use them. All the configurations will dop exactly the same thing everytime we run them, by eliminating as mucb variablity between configurations as possibe.**
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- **increase virtual memory**
+- **install docker.io engine, python-pip, docker module**
+- **download and launch a docker elk container (sepb/elk) with open ports 5601, 9200, 5044**
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![](images/project1-2.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

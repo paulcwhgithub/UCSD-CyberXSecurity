@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - [elk-playbook](resources/elk-playbook.yml)
+  - **[elk-playbook](resources/elk-playbook.yml)**
   - [filebeat-config](resources/filebeat-config.yml)
   - [filebeat-playbook](resources/filebeat-playbook.yml)
   - [metricbeat-config](resources/metricbeat-config.yml)
@@ -34,7 +34,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metricbeat is a lightweight shipper that you can install on your servers to periodically collect metrics from the operating system and from services running on the server.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name       | Function          | IP Address | Operating System       |
 |------------|-------------------|------------|------------------------|

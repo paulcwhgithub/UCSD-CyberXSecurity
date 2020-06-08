@@ -85,7 +85,6 @@ We have installed the following Beats on these machines:
 - **MetricBeat**
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 - **Filebeat collects system log events, which we use to track user login events (e.g. SSH login attempts)**
 - **Metricbeat collect metrics from the operating system and from services running on the server, which we used to track system load, Disk IO **
 

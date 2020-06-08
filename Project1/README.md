@@ -99,8 +99,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to **Kibana dashboard** to check that the installation worked as expected.
 
 - **elk-playbook.yml, filebeat-playbook.yml, metricbeat-playbook.yml are the playbooks and they are located in /etc/ansible**
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- **update hosts (/etc/ansible/hosts) file on
+- **update hosts (/etc/ansible/hosts) file on Ansible container for:
   - **[elkservers] group to install docker module and containers
   - **[webservers] group to install beats on DVWA Servers
 - **navigate to url: http://<elkserver's ip>:5601 in order to check that the ELK server is running

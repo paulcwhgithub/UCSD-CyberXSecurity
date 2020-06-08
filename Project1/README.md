@@ -110,5 +110,6 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
 - install metricbeat on webservers: **> ansible-playbook metricbeat-playbook.yml**
 - update hosts on ELK VM or werbservers: **> vi hosts**
 - update ELK server for filebeat that sends data to: **> vi filebeat-config.yml**
-   and update "hosts" under "output.elasticsearch:" and "host" under "setup.kibana:"
+  and update "host" under "setup.kibana:" and "hosts" under "output.elasticsearch:"
 - update ELK server for metricbeat that sends data to: **> vi metricbeat-config.yml**
+  and update "host" under "setup.kibana:" and "hosts" under "output.elasticsearch:"

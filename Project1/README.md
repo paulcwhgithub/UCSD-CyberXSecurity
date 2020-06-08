@@ -87,7 +87,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 - **Filebeat collects system log events, which we use to track user login events (e.g. SSH login attempts)**
-- **Metricbeat collect metrics from the operating system and from services running on the server, which we used to track**
+- **Metricbeat collect metrics from the operating system and from services running on the server, which we used to track system load, Disk IO **
 
 
 ### Using the Playbook
@@ -98,8 +98,11 @@ SSH into the control node and follow the steps below:
 - Update the **configuration** file to include **elk server ip address**
 - Run the playbook, and navigate to **Kibana dashboard** to check that the installation worked as expected.
 
-- **elk-playbook.yml, filebeat-playbook.yml, metricbeat-playbook.yml are the playbook and they are located at /etc/ansible**
+- **elk-playbook.yml, filebeat-playbook.yml, metricbeat-playbook.yml are the playbooks and they are located in /etc/ansible**
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- **update hosts (/etc/ansible/hosts) file on
+  - **[elkservers] group to install docker module and containers
+  - **[webservers] group to install beats on DVWA Servers
+- **navigate to url: http://<elkserver's ip>:5601 in order to check that the ELK server is running
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

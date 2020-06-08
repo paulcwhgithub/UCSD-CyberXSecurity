@@ -112,3 +112,11 @@ SSH into the control node and follow the steps below:
   and update "host" under "setup.kibana:" and "hosts" under "output.elasticsearch:"
 - update ELK server for metricbeat that sends data to: **> vi metricbeat-config.yml**
   and update "host" under "setup.kibana:" and "hosts" under "output.elasticsearch:"
+  
+### Screenshots
+
+![](images/elk-screenshot.png)
+
+![](images/filebeat-screenshot.png)
+
+![](images/metricbeat-screenshot.png)

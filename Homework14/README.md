@@ -153,9 +153,11 @@ Answer the following questions about monoliths and microservices:
   - **service**
   
 27. What is a service that writes to a database and communicates to other services?
-  - **backend server
+  - **backend server**
+  
 28. What type of underlying technology allows for `microservices` to become scalable and have redundancy?
-
+  - **API**
+  
 #### Container Vulnerability Filtering
 
 Answer the following questions about vulnerability filtering `Trivy` scans with `jq`:

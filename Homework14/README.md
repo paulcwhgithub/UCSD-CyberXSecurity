@@ -132,23 +132,28 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What was the response status code?
+  - **200**
 
 22. Was the response encrypted or unencrypted?
-
+  - **encrypted**
+  
 23. Does this response have a user session associated to it?
-
+  - **yes, Set-Cookie: SessionID=5**
+  
 24. What kind of content is likely to be in the [page content] response body?
-
+  - **text/html**
 25. If your class covered security headers, what security request headers have been included?
+  - **Content-Security-Policy, Strict-Transport-Security, X-Frame-Options, X-XSS-Protection, X-Content-Type-Options**
 
 #### Monoliths and Microservices
 
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
-
+  - **service**
+  
 27. What is a service that writes to a database and communicates to other services?
-
+  - **backend server
 28. What type of underlying technology allows for `microservices` to become scalable and have redundancy?
 
 #### Container Vulnerability Filtering

@@ -70,6 +70,7 @@ Answer the following questions about sessions and cookies.
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
+  - **Set-Cookie: cart=Bob**
 
 16. Which request header sets a cookie in the client?
 
@@ -78,6 +79,7 @@ Answer the following questions about sessions and cookies.
     Host: www.example.org
     Cookie: cart=Bob
     ```
+  - **Cookie: cart=Bob**
 
 #### Example HTTP Requests and Responses
 

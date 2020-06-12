@@ -101,13 +101,17 @@ username=Barbara&password=password
 ```
 
 17. What was the request method?
+  - **POST**
 
 18. Was the request encrypted or unencrypted?
-
+  - **unencrypted**
+  
 19. Does the request have a user session associated to it?
-
+  - **no**
+  
 20. What kind of data is being sent from this request body.
-
+  - **username and password**
+  
 #### HTTP Response Example
 
 ```HTTP

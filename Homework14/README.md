@@ -46,15 +46,17 @@ Answer the following questions about `curl`:
   - **Cybersecurity professionals need to be able to quickly test HTTP requests in a way that can be automated, but that also allows them to make adjustments as they work**
 
 11. Which curl option is used to change the request method?
-    **-X**
+  - **-X**
 
 12. Which curl option is used to set request headers?
-    **--head**
+  - **-H / --header**
 
 13. Which curl option is used to view the response header?
+  - **-I / --head**
 
 14. Which request method might an attacker use to scope out usable HTTP requests that an HTTP server will accept?
-
+  - **OPTIONS**
+  
 #### Sessions and Cookies
 
 Recall that HTTP servers need ways to recognize clients from one another. These are implemented through sessions and cookies.

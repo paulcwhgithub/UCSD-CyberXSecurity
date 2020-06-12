@@ -11,8 +11,10 @@ For submission, create a new file containing the answers to the question.
 Answer the following questions about the HTTP request and response process.
 
 1. What type of architecture does the HTTP request and response process occur in?
+**Layer 7, Application layer
 
 2. What parts make up an `HTTP request`?
+
 
 3. What is the optional part of an HTTP request?
 

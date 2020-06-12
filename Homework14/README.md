@@ -42,10 +42,14 @@ Answer the following questions about the HTTP request and response process.
 Answer the following questions about `curl`:
 
 10. What are the advantages of using curl over the browser?
+  - **It's not always possible to examine HTTP requests and responses through a browser**
+  - **Cybersecurity professionals need to be able to quickly test HTTP requests in a way that can be automated, but that also allows them to make adjustments as they work**
 
 11. Which curl option is used to change the request method?
+    **-X**
 
 12. Which curl option is used to set request headers?
+    **--head**
 
 13. Which curl option is used to view the response header?
 

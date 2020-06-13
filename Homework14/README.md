@@ -166,7 +166,7 @@ Answer the following questions about vulnerability filtering `Trivy` scans with 
   - **yes**
 
 30. Would an organization be more concerned with `Low` severity vulnerabilities as much as `Critical`?
-  - **An organization would prioritize more critical vulnerabilities over the less critical ones. Since it takes resources to resolve vulnerabilities.**
+  - **An organization would prioritize more critical vulnerabilities over the less critical ones. Since it takes resources to resolve vulnerabilities.Even the attacker leverages these vulnerabilities, the damage to the system will be limited.**
 
 31. Would the bash tool `jq` be useful in finding certain kinds of vulnerabilities within a vulnerability report?
   -**Yes.Because jq can be useful in filtering and sort out different kinds of vulnerabilities in order to mitigate the security risk.**

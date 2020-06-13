@@ -150,7 +150,7 @@ X-XSS-Protection: 1; mode=block
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
-  - **service**
+  - **container**
   
 27. What is a service that writes to a database and communicates to other services?
   - **backend server**
@@ -163,18 +163,23 @@ Answer the following questions about monoliths and microservices:
 Answer the following questions about vulnerability filtering `Trivy` scans with `jq`:
 
 29. Do `microservices` share the same kind of vulnerabilities as regular operating systems?
+  - **yes**
 
 30. Would an organization be more concerned with `Low` severity vulnerabilities as much as `Critical`?
+  - **An organization would prioritize more critical vulnerabilities over the less critical ones. Since it takes resources to resolve vulnerabilities.**
 
 31. Would the bash tool `jq` be useful in finding certain kinds of vulnerabilities within a vulnerability report?
+  -**Yes.Because jq can be useful in filtering and sort out different kinds of vulnerabilities in order to mitigate the security risk.**
 
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 32. What is a tool that can be used to deploy multiple containers at once?
+  - **docker-compose**
 
 33. What kind of file format was required for us to deploy a container set?
+  - **yaml**
 
 #### Container Runtime Intrusion Detection Systems
 

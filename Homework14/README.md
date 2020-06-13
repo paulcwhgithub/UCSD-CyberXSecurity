@@ -187,10 +187,10 @@ Answer the following questions about multi-container deployment:
   - **Falco**
 
 35. What high-value system file might an intruder view that would trigger a `sensitive file opening` alert?
-  - ** **
+  - **actions such as > less /etc/shadow**
 
 36. What kind of intruder action might trigger an alert from a container IDS that says `shell configuration file has been modified`?
-  - ** **
+  - **actions such as > adduser "someuser"**
 ---
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

@@ -47,7 +47,7 @@ Use the graphic below to answer the following questions:
    - **Parameters**
 
 2. Which part of the URL can be manipulated by an attacker to cause a vulnerable web server to dump the `/etc/passwd` file? Also, name the attack used to exploit this vulnerability.
-   - **Directory Traversal**
+   - **Path, Directory Traversal**
    
 3. Name three threat agents that pose a risk for injection attacks.
 

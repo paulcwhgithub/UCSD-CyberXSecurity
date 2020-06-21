@@ -50,9 +50,10 @@ Use the graphic below to answer the following questions:
 - **Path, Directory Traversal**
    
 3. Name three threat agents that pose a risk for injection attacks.
+- ** **
 
-
-4. What kinds of sources can act as an attack vector for injection attacks?\
+4. What kinds of sources can act as an attack vector for injection attacks?
+- ** **
 
 5. Injection attacks exploit which part of the CIA triad?
 - **Confidentiality**

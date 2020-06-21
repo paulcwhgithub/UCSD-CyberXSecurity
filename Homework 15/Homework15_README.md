@@ -89,8 +89,8 @@ Use the graphic below to answer the following questions:
 - **Web Client**
 
 5. Which stage is designed to prevent unauthorized access to and from protected web server resources?
-
 - **Firewall**
+
 ----
 
 
@@ -111,11 +111,12 @@ In today’s globally connected cyber community, network and OS level attacks ar
 
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
-
+- **company information can be redacted for privacy.**
    
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
+   - **False. Because client-side validation can be manipulated or disabled by the web client.**
 
 
 ____
@@ -127,13 +128,13 @@ WAFs are designed to defend against different types of HTTP attacks and various 
 WAFs are typically present on web sites that use strict transport security mechanisms such as online banking or e-commerce websites.
 
 1. Which layer of the OSI model do WAFs operate at?
-
+- **Layer 7: Application**
 
 2. A WAF helps protect web applications by filtering and monitoring what?
-
+- **HTTP traffic between web applications and the internet**
 
 3. True or False: A WAF based on the negative security model (Blacklisting) protects against known attacks, and a WAF based on the positive security model (Whitelisting) allows pre-approved traffic to pass.
-
+- **True**
 ____
 
 #### Authentication and Access Controls

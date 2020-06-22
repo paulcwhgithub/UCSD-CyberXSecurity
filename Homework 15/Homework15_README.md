@@ -50,7 +50,9 @@ Use the graphic below to answer the following questions:
 - **Path, Directory Traversal**
    
 3. Name three threat agents that pose a risk for injection attacks.
-- ** **
+- **Competitors who try to steal data**
+- **Hacktivists who try to deface a company website**
+- **Disgrunted employees**
 
 4. What kinds of sources can act as an attack vector for injection attacks?
 - **environmental variables**

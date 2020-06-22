@@ -121,9 +121,7 @@ In today’s globally connected cyber community, network and OS level attacks ar
 6. True or False: As a network defender, `Client-Side` validation is preferred over `Server-Side` validation because it's easier to defend against attacks.
 
    - Explain why you chose the answer that you did.
-   - **False. Because client-side validation can be manipulated or disabled by the web client.**
-
-
+   - **False. Because access controls are only effective on the server side, where attackers cannot modify control checks and metadata.So Client-side validation can be manipulated or disabled by the web client.**
 ____
 
 #### Web Application Firewalls

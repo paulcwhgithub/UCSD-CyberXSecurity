@@ -53,13 +53,16 @@ Use the graphic below to answer the following questions:
 - ** **
 
 4. What kinds of sources can act as an attack vector for injection attacks?
-- ** **
+- **environmental variables**
+- **parameters**
+- **external and internal web services**
 
 5. Injection attacks exploit which part of the CIA triad?
-- **Confidentiality**
+- **confidentiality**
 
 6. Which two mitigation methods can be used to thwart injection attacks?
-- **use API
+- **use a safe API, which avoids the use of the interpreter entirely or provides a parameterized interface, or migrate to use Object Relational Mapping Tools (ORMs).**
+- **use LIMIT and other SQL controls within queries to prevent mass disclosure of records in case of SQL injection.**
 ____
 
 #### Web Server Infrastructure
@@ -99,13 +102,15 @@ Use the graphic below to answer the following questions:
 In today’s globally connected cyber community, network and OS level attacks are well defended through the proper deployment of technical security controls such as, firewalls, IDS, Data Loss Prevention, EndPoint and security. However, web servers are accessible from anywhere on the web, making them vulnerable to attack.
 
 1. What is the process called that cleans and scrubs user input in order to prevent it from exploiting security holes by proactively modifying user input.
-
+- **input sanitation**
 
 2. Name the process that tests user and application-supplied input. The process is designed to prevent malformed data from entering a data information system by verifying user input meets a specific set of criteria (i.e. a string that does not contain standalone single quotation marks).
-
+- **input validation**
 
 3. **Secure SDLC** is the process of ensuring security is built into web applications throughout the entire software development life cycle. Name three reasons why organization might fail at producing secure web applications.
-
+- **insufficient support from management**
+- **insufficient standardization**
+- **reactive security postures**
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
 

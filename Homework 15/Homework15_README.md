@@ -113,7 +113,7 @@ In today’s globally connected cyber community, network and OS level attacks ar
 - **reactive security postures**
 
 4. How might an attacker exploit the `robots.txt` file on a web server?
-
+- **Experienced criminal hackers will attempt to harvest the robots.txt file to retrieve private data, such as content management system information and root directory structure.**
 
 5. What steps can an organization take to obscure or obfuscate their contact information on domain registry web sites?
 - **company information can be redacted for privacy.**

@@ -153,24 +153,25 @@ Security enhancements designed to require users to present two or more pieces of
 1. Define all four factors of multifactor authentication and give examples of each:
 
    - Factor 1
-
+   - **Standard login inputs (passwords, PIN, cognitive questions)**
    
    - Factor 2
-   
+   - **Physical keys (smartcards, hard tokens)**
    
    - Factor 3
-
+   - **Physical keys (smartcards, hard tokens)**
    
    - Factor 4
-
+   - **Location (GPS detection, callback to a home phone number)**
    
 2. True or False: A password and pin is an example of 2-factor authentication.
-
+- **False**
    
 3. True or False: A password and `google authenticator app` is an example of 2-factor authentication.
-
+- **True**
    
 4. What is a constrained user interface? 
+- **It restricts what users can see and do based on their privileges.**
 
 ----
 ____

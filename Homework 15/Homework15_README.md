@@ -257,6 +257,15 @@ Two clues:
 
 - **Hint 2**: You will need to locate the `webgoat_challenge_guest.jsp` file and inject it with code in order to deface the website.
 
+-**enable webscarab and locate the file webgoat_challenge_guest.jsp**
+![](images/3-1.png)
+![](images/3-2.png)
+
+- **defacing the website by replacement the contents of webgoat_challenge_guest.jsp**
+![](images/3-3.png)
+![](images/3-4.png)
+![](images/3-5.png)
+
 ---
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  

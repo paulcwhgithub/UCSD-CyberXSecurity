@@ -159,7 +159,7 @@ Security enhancements designed to require users to present two or more pieces of
    - **Physical keys (smartcards, hard tokens)**
    
    - Factor 3
-   - **Physical keys (smartcards, hard tokens)**
+   - **Biometrics (iris/retina scan, hand geometry)**
    
    - Factor 4
    - **Location (GPS detection, callback to a home phone number)**

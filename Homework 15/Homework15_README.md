@@ -218,7 +218,9 @@ Your first mission is to break the authentication scheme. There are a number of 
 
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
+![](images/1-1.png)
 
+![](images/1-2.png)
 
 #### Challenge #2
 

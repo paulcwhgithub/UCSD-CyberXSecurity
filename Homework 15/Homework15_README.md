@@ -218,8 +218,10 @@ Your first mission is to break the authentication scheme. There are a number of 
 
 After completing the first challenge, you will be provided with an option to continue to the next challenge.
 
+- **replace the parameter with source?source=true and you will see the username (youaretheweakestlink) and password (goodbye) hide in the java script** 
 ![](images/1-1.png)
 
+- **login with the credentials username (youaretheweakestlink) and password (goodbye)**
 ![](images/1-2.png)
 
 #### Challenge #2
@@ -232,6 +234,19 @@ Next, steal all of the credit card numbers from the database.
 
 After completing the second challenge, you will be provided with an option to continue to the next challenge.
 
+- **enable tamper and click button Buy Now!**
+![](images/2-1.png)
+
+- **convert "' OR 1=1 --'" to base64 format]**
+![](images/2-2.png)
+
+- **replace username "youaretheweakestlink" with the base64 format of "' Or 1=1 --'"**
+![](images/2-3.png)
+![](images/2-4.png)
+
+-**All credit cards information are revealed** 
+![](images/2-5.png)
+![](images/2-6.png)
 
 #### Challenge #3
 

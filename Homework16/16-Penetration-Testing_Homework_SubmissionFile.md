@@ -4,9 +4,10 @@
 
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is:
+**Karl Fitzgerald**
 
 - How can this information be helpful to an attacker:
-
+**whale phishing**
 
 #### Step 2: DNS and Domain Discovery
 

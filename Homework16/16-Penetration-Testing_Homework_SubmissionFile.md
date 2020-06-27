@@ -7,7 +7,7 @@
   - **Karl Fitzgerald**
 
 - How can this information be helpful to an attacker:
-  - **whale phishing**
+  - **A whaling attack, also known as whaling phishing or a whaling phishing attack, is a specific type of phishing attack that targets high-profile employees, such as the CEO or CFO, in order to steal sensitive information from a company, as those that hold higher positions within the company typically have complete access to sensitive data.**
 
 #### Step 2: DNS and Domain Discovery
 

@@ -25,6 +25,10 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
+  - **tcp 80, http**
+  - **tcp 443, https**
+  - **tcp 8080, http**
+  - **tcp 8443, https**
 
 #### Step 4: Recon-ng
 

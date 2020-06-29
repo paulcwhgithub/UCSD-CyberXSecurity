@@ -36,7 +36,13 @@ Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the 
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
 
-Is Altoro Mutual vulnerable to XSS: 
+- **> marketplace search xssed**
+- **> marketplace install xssed**
+- **> modules load recon/domains-vulnerabilitites/xssed**
+- **> options set SOURCE demo.testfire.net**
+- **> run**
+
+Is Altoro Mutual vulnerable to XSS:
 
 ### Step 5: Zenmap
 

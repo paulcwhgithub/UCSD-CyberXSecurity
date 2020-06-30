@@ -54,13 +54,14 @@ Your client has asked that you help identify any vulnerabilities with their file
   - **nmap -sV 192.168.0.10**
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`:
-  - **nmap -sV -oN zenmapscan.txt 192.168.0.10 
+  - **nmap -sV -oN zenmapscan.txt 192.168.0.10**
 
-- Zenmap vulnerability script command: 
+- Zenmap vulnerability script command:
+  - **nmap --script smb-enum-shares,smb-security-mode 192.168.0.10
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
-    - **Message signing disabled**
+    - **Anonymous users have read/write access to SAMBA shares; Message signing disabled**
 
   2. Why is it dangerous:
     - **SMB signing allows the recipient of SMB packets to confirm their authenticity and helps prevent man in the middle attacks against SMB.**

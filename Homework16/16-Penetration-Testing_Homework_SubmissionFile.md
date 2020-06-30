@@ -57,7 +57,7 @@ Your client has asked that you help identify any vulnerabilities with their file
   - **nmap -sV -oN zenmapscan.txt 192.168.0.10**
 
 - Zenmap vulnerability script command:
-  - **nmap --script smb-enum-shares,smb-security-mode 192.168.0.10
+  - **nmap --script smb-enum-shares,smb-security-mode 192.168.0.10**
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:

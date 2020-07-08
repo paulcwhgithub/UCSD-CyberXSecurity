@@ -94,7 +94,7 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the command that runs the Icecast exploit.
       
-     > Answer: run
+     > Answer: run / exploit
  
    - Run the command that performs a search for the `secretfile.txt` on the target.
       

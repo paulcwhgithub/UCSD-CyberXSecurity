@@ -125,6 +125,8 @@ You've been provided full access to the network and are getting ping responses f
  
    - **Note:** The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
       > Answer: run post/multi/recon/local_exploit_suggester
+      
+      ![](images/17-7.png)
  
 #### Bonus
   
@@ -132,7 +134,8 @@ You've been provided full access to the network and are getting ping responses f
 A. Run a Meterpreter post script that enumerates all logged on users.
 
   > Answer: run post/windows/gather/enum_logged_on_users
- 
+  
+  ![](images/17-8.png)
      
 B. Open a Meterpreter shell and gather system information for the target.
  
@@ -140,7 +143,9 @@ B. Open a Meterpreter shell and gather system information for the target.
  
 C. Run the command that displays the target's computer system information:
 
-   > Answer: 
+  > Answer:
+   
+  ![](images/17-9.png)
 
 icecast 2.0 header over CVE2004-1561
 

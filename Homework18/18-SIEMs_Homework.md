@@ -80,7 +80,8 @@ Bonus: Run the speedtest and provide a screenshot of those results.
     - [Speed Test File](resources/server_speedtest.csv)
 
 2. Using the `eval` command, create a field called `ratio` that shows the ratio between the upload and download speeds.
-   - Hint: The format for creating a ratio is: `| eval new_field_name = 'fieldA'  / 'fieldB'`
+   - source="18-SIEMs_Homework_resources_server_speedtest.csv" host="Homework 18-2 SpeedTest" sourcetype="csv" | eval ratio = 'UPLOAD_MEGABITS'/'DOWNLOAD_MEGABITS'
+   ![](images/18-4.png)
       
 3. Create a report using the Splunk's `table` command to display the following fields in a statistics report:
     - `_time`

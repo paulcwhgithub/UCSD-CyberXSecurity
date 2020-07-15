@@ -126,8 +126,8 @@ Submit a screen shot of your report and the answer to the questions above.
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
-   - **SPL: source="18-SIEMs_Homework_resources_nessus_logs.csv" dest_ip="10.11.36.23" severity=critical
-   
+
+   - **SPL: source="18-SIEMs_Homework_resources_nessus_logs.csv" dest_ip="10.11.36.23" severity=critical**
    - ![](images/18-8.png)
    
    - ![](images/18-9.png)

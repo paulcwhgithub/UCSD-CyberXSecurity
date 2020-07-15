@@ -148,9 +148,9 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
    ![](images/18-10.png)
 
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
-   - ****
+   - **The baseline for failed to logon during should be less than 30/hour, so set the threshold of 50/hour should indicate the sign of brute force attack**
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
-
+   ![](images/18-11.png)
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
  
  

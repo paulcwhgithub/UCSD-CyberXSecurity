@@ -80,7 +80,7 @@ Bonus: Run the speedtest and provide a screenshot of those results.
     - [Speed Test File](resources/server_speedtest.csv)
 
 2. Using the `eval` command, create a field called `ratio` that shows the ratio between the upload and download speeds.
-   - source="18-SIEMs_Homework_resources_server_speedtest.csv" | eval ratio = 'DOWNLOAD_MEGABITS'/'UPLOAD_MEGABITS'
+   - **source="18-SIEMs_Homework_resources_server_speedtest.csv" | eval ratio = 'DOWNLOAD_MEGABITS'/'UPLOAD_MEGABITS'**
    
    - ![](images/18-4.png)
       
@@ -91,15 +91,15 @@ Bonus: Run the speedtest and provide a screenshot of those results.
     - `upload_megabits`
     - `ratio`
   
-    - source="18-SIEMs_Homework_resources_server_speedtest.csv" host="Homework 18-2 SpeedTest" sourcetype="csv" | eval ratio = 'DOWNLOAD_MEGABITS'/'UPLOAD_MEGABITS' | table _time IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio
+    - **source="18-SIEMs_Homework_resources_server_speedtest.csv" host="Homework 18-2 SpeedTest" sourcetype="csv" | eval ratio = 'DOWNLOAD_MEGABITS'/'UPLOAD_MEGABITS' | table _time IP_ADDRESS DOWNLOAD_MEGABITS UPLOAD_MEGABITS ratio**
    - ![](images/18-5.png)
 
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
-      - The attack starts at around Feb 23 14:30 pm
+      - **The attack starts at around Feb 23 14:30 pm**
     - How long did it take your systems to recover?
-      - The systems fully recovered at around Feb 23 11:30 pm
+      - **The systems fully recovered at around Feb 23 11:30 pm**
 
 Submit a screen shot of your report and the answer to the questions above.
  

@@ -34,22 +34,23 @@ Use the same log files you used during the Master of SOC activity:
 ![](images/19-5.png)
   - **ANSWER:**
     - **Global mitigation:**
-      - **Use of stateful firewall and deploy IDS and IPS solution to detect and block the instrusions**
+      - **use of stateful firewall and deploy IDS and IPS solution to detect and block the instrusions**
       - **don't use email address or name as userid that can be obtained by social engineering**
       - **enforcing password policies like enforcing password history, password age, complexity requirement.**
     
     - **Individual mitigation:**
       - **allow login only from certain IP addresses**
-      - **Assign unique login URLs to blocks of users so that not all users can access the site from the same URL.**
+      - **assign unique login URLs to blocks of users so that not all users can access the site from the same URL.**
+      - **assign different password policies and lockout time for differnt type of users**
     
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
   - **ANSWER**
-  - **instead of completely locking out an account, place it in a lockdown mode with limited capabilities.**
-  - **use of multiple authentications**
-  - **use a CAPTCHA to prevent automated attacks**
-  - **trace of source of ip addresses with failed login and block them**
+    - **instead of completely locking out an account, place it in a lockdown mode with limited capabilities.**
+    - **use of multiple authentications**
+    - **use a CAPTCHA to prevent automated attacks**
+    - **trace of source of ip addresses with failed login and block them**
   
 
 ### Part 2: Apache Webserver Attack:

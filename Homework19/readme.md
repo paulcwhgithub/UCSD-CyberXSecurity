@@ -24,7 +24,7 @@ Use the same log files you used during the Master of SOC activity:
 ### Part 1: Windows Server Attack
 
 Note: This is a public-facing windows server that VSI employees access.
- 
+![](images/19-1.png) 
 #### Question 1
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.

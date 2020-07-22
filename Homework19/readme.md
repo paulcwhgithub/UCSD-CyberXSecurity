@@ -32,7 +32,14 @@ Note: This is a public-facing windows server that VSI employees access.
   - **ANSWER: user_a and user_k**
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
 ![](images/19-4.png)
-![](images/19-5.png)  
+![](images/19-5.png)
+  - **ANSWER:**
+    - **user account log out:**
+    - **For advanced users who want to protect their accounts from attack, give them the option to allow login only from certain IP addresses.**
+    - **Assign unique login URLs to blocks of users so that not all users can access the site from the same URL.**
+    - **Use a CAPTCHA to prevent automated attacks.**
+    - **Instead of completely locking out an account, place it in a lockdown mode with limited capabilities.**
+    
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?

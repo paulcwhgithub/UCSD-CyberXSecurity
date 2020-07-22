@@ -23,7 +23,6 @@ Use the same log files you used during the Master of SOC activity:
 
 ### Part 1: Windows Server Attack
 
-Note: This is a public-facing windows server that VSI employees access.
 ![](images/19-1.png) 
 #### Question 1
 - Several users were impacted during the attack on March 25th.

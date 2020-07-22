@@ -27,21 +27,25 @@ Note: This is a public-facing windows server that VSI employees access.
 ![](images/19-1.png) 
 #### Question 1
 - Several users were impacted during the attack on March 25th.
-![](images/19-2.png)(images/19-3.png) 
+![](images/19-2.png)
+![](images/19-3.png)
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
-  
+![](images/19-4.png)
+![](images/19-5.png)  
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
   
 
 ### Part 2: Apache Webserver Attack:
-
+![](images/19-6.png) 
 #### Question 1
 - Based on the geographic map, recommend a firewall rule that the networking team should implement.
 - Provide a "plain english" description of the rule.
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
-- Provide a screen shot of the geographic map that justifies why you created this rule. 
+- Provide a screen shot of the geographic map that justifies why you created this rule.
+![](images/19-8.png)
+![](images/19-10.png)
   
 #### Question 2
 
@@ -50,6 +54,7 @@ Note: This is a public-facing windows server that VSI employees access.
 - What other rules can you create to protect VSI from attacks against your webserver?
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
+  ![](images/19-11.png)
   
 
 

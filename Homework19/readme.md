@@ -65,15 +65,3 @@ Note: This is a public-facing windows server that VSI employees access.
   ![](images/19-11.png)
   
 
-
-### Guidelines for your Submission:
-  
-In a word document, provide the following:
-- Answers for all questions.
-- Screenshots where indicated
-
-Submit your findings in BootCampSpot!
-
----
-
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

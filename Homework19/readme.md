@@ -58,8 +58,11 @@ Use the same log files you used during the Master of SOC activity:
 #### Question 1
 - Based on the geographic map, recommend a firewall rule that the networking team should implement.
 - Provide a "plain english" description of the rule.
-  - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+  - **Block all incoming HTTP traffic where the source IP comes from the city of Kiev in Ukraine**
 - Provide a screen shot of the geographic map that justifies why you created this rule.
+**Before the attack**
+
+**After the attack**
 ![](images/19-8.png)
 ![](images/19-10.png)
   

@@ -34,13 +34,13 @@ Use the same log files you used during the Master of SOC activity:
 ![](images/19-5.png)
   - **ANSWER:**
     - **Global mitigation:**
-    - **Use of stateful firewall and deploy IDS and IPS solution to detect and block the instrusions**
-    - **don't use email address or name as userid that can be obtained by social engineering**
-    - **enforcing password policies like enforcing password history, password age, complexity requirement.**
+      - **Use of stateful firewall and deploy IDS and IPS solution to detect and block the instrusions**
+      - **don't use email address or name as userid that can be obtained by social engineering**
+      - **enforcing password policies like enforcing password history, password age, complexity requirement.**
     
     - **Individual mitigation:**
-    - **allow login only from certain IP addresses**
-    - **Assign unique login URLs to blocks of users so that not all users can access the site from the same URL.**
+      - **allow login only from certain IP addresses**
+      - **Assign unique login URLs to blocks of users so that not all users can access the site from the same URL.**
     
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.

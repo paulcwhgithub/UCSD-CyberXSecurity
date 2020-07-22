@@ -42,6 +42,11 @@ Use the same log files you used during the Master of SOC activity:
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
+  **ANSWER**
+  **For advanced users who want to protect their accounts from attack, give them the option to allow login only from certain IP addresses.**
+  **Assign unique login URLs to blocks of users so that not all users can access the site from the same URL.**
+  **Use a CAPTCHA to prevent automated attacks.**
+  **Instead of completely locking out an account, place it in a lockdown mode with limited capabilities.**
   
 
 ### Part 2: Apache Webserver Attack:

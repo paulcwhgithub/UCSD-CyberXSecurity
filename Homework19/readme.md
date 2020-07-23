@@ -73,7 +73,7 @@ Use the same log files you used during the Master of SOC activity:
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
 
 - What other rules can you create to protect VSI from attacks against your webserver?
-  - **Block all incoming HTTP traffic where the user agent is Info path or Chef Client**
+  - **Block all incoming HTTP traffic where the user agent is Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1) or Chef Client/10.18.2 (ruby-1.9.3-p327; ohai-6.16.0; x86_64-linux; +http://opscode.com)**
   
   **Before the attack**
 ![](images/19-11.png)

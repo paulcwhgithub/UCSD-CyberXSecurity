@@ -61,9 +61,11 @@ Use the same log files you used during the Master of SOC activity:
   - **Block all incoming HTTP traffic where the source IP comes from the city of Kiev in Ukraine**
 - Provide a screen shot of the geographic map that justifies why you created this rule.
 **Before the attack**
+![](images/19-7.png)
+![](images/19-8.png)
 
 **After the attack**
-![](images/19-8.png)
+![](images/19-9.png)
 ![](images/19-10.png)
   
 #### Question 2
@@ -71,8 +73,12 @@ Use the same log files you used during the Master of SOC activity:
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
 
 - What other rules can you create to protect VSI from attacks against your webserver?
-  - **Block all incoming HTTP traffic where the user agent is Chef Client**
-  - Hint: Look for other fields that indicate the attacker.
-  ![](images/19-11.png)
+  - **Block all incoming HTTP traffic where the user agent is Info path or Chef Client**
+  
+  **Before the attack**
+![](images/19-11.png)
+
+**After the attack**
+![](images/19-12.png)
   
 

@@ -18,6 +18,7 @@
        - ![](images/day2-5.png)
      - Which files were requested? What information did they contain?
        - **ANSWER: it contains file connect_to_corp_server which has the hash for ryan password**
+       - ![](images/day2-6.png)
      - What kind of alarm would you set to detect this behavior in the future?
        - **ASNWER: We can set an alarm for http.response.status.code for 401 to avoid this type of brute force attack**
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
@@ -39,8 +40,11 @@
 
 4. Find the WebDav connection.
    - Use your dashboard to answer the following questions:
-     - How many requests were made to this directory? 
+     - How many requests were made to this directory?
+       - **ANSWER: 2**
+       - ![](images/day2-7.png)
      - Which file(s) were requested?
+       
      - What kind of alarm would you set to detect such access in the future?
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
 

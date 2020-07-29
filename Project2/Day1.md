@@ -105,8 +105,18 @@ Complete the following to find the flag:
     - ![](images/day1-7.png)
     
 - Upload a PHP reverse shell payload.
+  - generate the payload by msfvenom
+  - ![](images/day1-8.png)
+  
+  - Use cadaver again to put the payload to the webdav folder
+  - ![](images/day1-9.png)
+  - ![](images/day1-10.png)
+  
 - Execute payload that you uploaded to the site to open up a meterpreter session.
+  - ![](images/day1-11.png)
+  - ![](images/day1-12.png)
 - Find and capture the flag.
+  - ![](images/day1-13.png)
 
 After you have captured the flag, show it to your instructor.
 

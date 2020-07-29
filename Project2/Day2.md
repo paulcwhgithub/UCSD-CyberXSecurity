@@ -46,13 +46,19 @@
      - Which file(s) were requested?
        - ![](images/day2-9.png)
      - What kind of alarm would you set to detect such access in the future?
+       - **ANSWER: some query on webdav folder and not from an whitelisted source ip addresses**
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
+       - **ANSWER: limit source ip for accessing the webdav, look for extension like .php**
 
 5. Identify the reverse shell and meterpreter traffic.
    - To finish off the attack, you uploaded a PHP reverse shell and started a meterpreter shell session. Answer the following questions:
      - Can you identify traffic from the meterpreter session?
+       - **ANSWER: filter by destination ip 192.168.1.90 and destination port 4444**
+       - ![](images/day2-9.png)
      - What kinds of alarms would you set to detect this behavior in the future?
+       - **ANSWER: any outbound traffic that is not using HTTP or HTTPS**
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
+       - **ANSWER: stateful firewall**
 
 
 ---

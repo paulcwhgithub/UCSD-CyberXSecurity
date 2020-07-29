@@ -86,8 +86,13 @@ Complete the following to find the flag:
 
 - Discover the IP address of the Linux web server.
   - **Answer**: '>nmap -A 192.168.1.1/24'
-  - 
+  - ![](images/day1-1.png)
+  
 - Locate the hidden directory on the web server.
+  - **Answer**: 'By browsing the website http://192.168.1.105, we found there is a hidden folder inside company_folders that requires authentication'
+  - ![](images/day1-2.png)
+  - ![](images/day1-3.png)
+
 - Brute force the password for the hidden directory using the hydra command:
     - **Hint**: `hydra -l <username> -P <wordlist> -s <port> -f -vV <victim.server.ip.address> http-get <path/to/secret/directory>`
     - **Hint**: You may need to use `gunzip` to unzip `rockyou.txt.gz` before running Hydra.

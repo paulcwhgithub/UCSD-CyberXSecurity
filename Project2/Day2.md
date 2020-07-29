@@ -138,12 +138,20 @@ After creating your dashboard and becoming familiar with the search syntax, use 
 1. Identify the offensive traffic.
    - Identify the traffic between your machine and the web machine:
      - When did the interaction occur?
+       - **ANSWER: Between 3:00 am to 4:30 am on July 29, 2020**
+       - ![](images/day2-1.png)
      - What responses did the victim send back?
+       - **ANSWER: HTTP response code 401**
+       - ![](images/day2-2.png)
      - What data is concerning from the Blue Team perspective?
+       - **ANSWER: There is a user agent cadaver to use a put method which is not normal for webserver. Also, paul.php is a reverse shell php.**
 
 2. Find the request for the hidden directory.
    - In your attack, you found a secret folder. Let's look at that interaction between these two machines.
      - How many requests were made to this directory? At what time and from which IP address(es)?
+       - ![](images/day2-3.png)
+       - ![](images/day2-4.png)
+       - ![](images/day2-5.png)
      - Which files were requested? What information did they contain?
      - What kind of alarm would you set to detect this behavior in the future?
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.

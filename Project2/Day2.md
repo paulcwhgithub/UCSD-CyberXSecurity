@@ -28,7 +28,7 @@
    - After identifying the hidden directory, you used Hydra to brute-force the target server. Answer the following questions:
      - Can you identify packets specifically from Hydra?
        - **ANSWER: By searching user_agent.original of Mozilla/4.0 (Hydra)**
-       - ![](images/day2-6.png)
+       - ![](images/day2-7.png)
      - How many requests were made in the brute-force attack?
        - **ANSWER: 15991**
      - How many requests had the attacker made before discovering the correct password in this one?
@@ -42,9 +42,9 @@
    - Use your dashboard to answer the following questions:
      - How many requests were made to this directory?
        - **ANSWER: 2**
-       - ![](images/day2-7.png)
+       - ![](images/day2-8.png)
      - Which file(s) were requested?
-       
+       - ![](images/day2-9.png)
      - What kind of alarm would you set to detect such access in the future?
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
 

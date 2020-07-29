@@ -96,13 +96,14 @@ Complete the following to find the flag:
 - Brute force the password for the hidden directory using the hydra command:
     - **Answer**: `hydra -l ashton -P /usr/share/wordlists/rockyou.txt -s 80 -f -vV 192.168.1.105 http-get /company_folders/secret_folder`
     - ![](images/day1-4.png)
+    - ![](images/day1-5.png)
+    - ![](images/day1-6.png)
     
 - Break the hashed password with the Crack Station website or John the Ripper.
 - Connect to the server via WebDav.
     - **Answer**: Using cadaver to connect to the webdav folder
-    - ![](images/day1-5.png)
-    - ![](images/day1-6.png)
     - ![](images/day1-7.png)
+    
 - Upload a PHP reverse shell payload.
 - Execute payload that you uploaded to the site to open up a meterpreter session.
 - Find and capture the flag.

@@ -85,7 +85,7 @@ Your entire attack will take place using the `Kali Linux` Machine.
 Complete the following to find the flag:
 
 - Discover the IP address of the Linux web server.
-  - **Answer**: '>nmap -A 192.168.1.1/24'
+  - **Answer**: '> nmap -A 192.168.1.1/24'
   - ![](images/day1-1.png)
   
 - Locate the hidden directory on the web server.
@@ -117,10 +117,3 @@ Complete the following to find the flag:
   - ![](images/day1-12.png)
 - Find and capture the flag.
   - ![](images/day1-13.png)
-
-After you have captured the flag, show it to your instructor.
-
-Be sure to save important files (e.g., scan results) and take screenshots as you work through the assessment. You'll use them again when creating your presentation.
-
----
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

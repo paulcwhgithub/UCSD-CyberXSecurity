@@ -54,7 +54,7 @@
    - To finish off the attack, you uploaded a PHP reverse shell and started a meterpreter shell session. Answer the following questions:
      - Can you identify traffic from the meterpreter session?
        - **ANSWER: filter by destination ip 192.168.1.90 and destination port 4444**
-       - ![](images/day2-9.png)
+       - ![](images/day2-10.png)
      - What kinds of alarms would you set to detect this behavior in the future?
        - **ANSWER: any outbound traffic that is not using HTTP or HTTPS**
      - Identify at least one way to harden the vulnerable machine that would mitigate this attack.
